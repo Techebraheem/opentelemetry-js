@@ -2,14 +2,10 @@ steps:
   - name: Checkout code
     uses: actions/checkout@v2
 
-  - name: Build project
-    run: |
-      # Add build commands here
-
   - name: Run tests
     run: |
       # Add test commands here
 
-  - name: Deploy to production
+  - name: Build and Deploy to Docker Repos 
     run: |
       # Add deployment commands here
