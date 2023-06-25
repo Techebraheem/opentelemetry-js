@@ -1,0 +1,15 @@
+steps:
+  - name: Checkout code
+    uses: actions/checkout@v2
+
+  - name: Build project
+    run: |
+      # Add build commands here
+
+  - name: Run tests
+    run: |
+      # Add test commands here
+
+  - name: Deploy to production
+    run: |
+      # Add deployment commands here
